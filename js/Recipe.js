@@ -14,18 +14,19 @@ const ShowRecipe = React.createClass({
     categories: array.isRequired
   },
   render () {
-    const timestamp = Date(this.props.created)
+    const { videoThumbnail, title, description, created, author, categories } = this.props
+    const timestamp = Date(created)
     // const date = (timestamp.getMonth()+1) + '/' + timestamp.getFullYear()
     return (
       <div className='show-card'>
-        <img src={`/public/img/recipes/${this.props.videoThumbnail}`} />
+        <img src={`/public/img/recipes/${videoThumbnail}`} />
         <div>
-          <h4>{this.props.author.name}</h4>
-          <img className='author-thumbnail' src={`/public/img/recipes/${this.props.author.thumbnail}`} />
-          <h3>{this.props.title}</h3>
+          <h4>{author.name}</h4>
+          <img className='author-thumbnail' src={`/public/img/recipes/${author.thumbnail}`} />
+          <h3>{title}</h3>
           <p>({timestamp})</p>
-          <p>({this.props.categories.toString()})</p>
-          <p>{this.props.description}</p>
+          <p>({categories.toString()})</p>
+          <p>{description}</p>
         </div>
         <button>READ MORE</button>
       </div>
