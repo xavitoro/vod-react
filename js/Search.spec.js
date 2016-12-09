@@ -1,19 +1,8 @@
-// import React from 'react'
-// import Search from './Search'
-// import renderer from 'react-test-renderer'
-//
-// test('Search should search titles', () => {
-//   const component = renderer.create(<Search />)
-//   let tree = component.toJSON()
-//   expect(tree).toMatchSnapshot()
-// })
-
-
 import React from 'react'
-import Search from './Search'
 import { shallow } from 'enzyme'
 import { shallowToJson } from 'enzyme-to-json'
 
+import Search from './Search'
 import ShowRecipe from './Recipe'
 import preload from '../public/dataRecipe.json'
 
