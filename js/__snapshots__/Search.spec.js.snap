@@ -1,0 +1,580 @@
+exports[`test Search render correctly 1`] = `
+<div
+  className="search">
+  <header>
+    <h1>
+      Keychn VOD 
+    </h1>
+    <input
+      onChange={[Function bound handleSearchTermChange]}
+      placeholder="Search"
+      type="text"
+      value="" />
+  </header>
+  <div>
+    <ShowRecipe
+      _id="1"
+      author={
+        Object {
+          "description": "Wannabe chef!",
+          "name": "Alexandre",
+          "thumbnail": "3.jpg"
+        }
+      }
+      categories={
+        Array [
+          "Spanish"
+        ]
+      }
+      comments={
+        Array [
+          Object {
+            "created": 1481199999,
+            "text": "Awesome recipe",
+            "userId": "Carlos"
+          },
+          Object {
+            "created": 1481199999,
+            "text": "A real recipe from my childhood",
+            "userId": "Maria"
+          }
+        ]
+      }
+      courseType="starter"
+      created={1481199199}
+      description="Grilled bread with tomatoe, olive, pepper and salt."
+      difficulty="Easy"
+      equipment={
+        Array [
+          Object {
+            "name": "toaster",
+            "quantity": "1"
+          },
+          Object {
+            "name": "knife",
+            "quantity": "1"
+          }
+        ]
+      }
+      ingredients={
+        Array [
+          Object {
+            "name": "bread",
+            "quantity": "2",
+            "unit": "slices"
+          },
+          Object {
+            "name": "olive oil",
+            "quantity": "1",
+            "unit": "tbsp"
+          },
+          Object {
+            "name": "salt",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "pepper",
+            "quantity": "1",
+            "unit": "pinch"
+          }
+        ]
+      }
+      learningPath={
+        Array [
+          "spanish-basics"
+        ]
+      }
+      length="5"
+      pictureIngredients="0.jpg"
+      picturePlating="1.jpg"
+      price="10"
+      servings="2"
+      skillsLearnt={
+        Array [
+          Object {
+            "name": "How to grill a bread"
+          }
+        ]
+      }
+      slug="pa-amb-tomaquet"
+      steps={
+        Array [
+          Object {
+            "description": "Toast the bread slices.",
+            "picture": "4.jpg",
+            "tip": "Crunchy outside, soft inside!"
+          },
+          Object {
+            "description": "Spread with tomato first, add salt and pepper and finally the olive oil.",
+            "picture": "5.jpg",
+            "tip": "You could also spread with garlic before the tomato to obtain a more tasty flavor."
+          }
+        ]
+      }
+      tags={
+        Array [
+          "healthy",
+          "grilled"
+        ]
+      }
+      title="Pa amb tomàquet"
+      userId="firstuserid"
+      videoFull="url5"
+      videoPreview="url4"
+      videoThumbnail="2.jpg" />
+    <ShowRecipe
+      _id="2"
+      author={
+        Object {
+          "description": "Wannabe Farmer!",
+          "name": "Marc",
+          "thumbnail": "9.jpg"
+        }
+      }
+      categories={
+        Array [
+          "Spanish",
+          "Mediterranean"
+        ]
+      }
+      comments={
+        Array [
+          Object {
+            "created": 1471199929,
+            "text": "Awesome recipe from Catalonia",
+            "userId": "Jean"
+          },
+          Object {
+            "created": 1471199999,
+            "text": "A mix of sweet and savory.",
+            "userId": "Denise"
+          }
+        ]
+      }
+      courseType="main"
+      created={1461199199}
+      description="Stuffed baby octopus with onions."
+      difficulty="Medium"
+      equipment={
+        Array [
+          Object {
+            "name": "casserole with the cover",
+            "quantity": "1"
+          },
+          Object {
+            "name": "frying pan",
+            "quantity": "1"
+          },
+          Object {
+            "name": "knife",
+            "quantity": "1"
+          }
+        ]
+      }
+      ingredients={
+        Array [
+          Object {
+            "name": "Baby octopus",
+            "quantity": "500",
+            "unit": "grams"
+          },
+          Object {
+            "name": "olive oil",
+            "quantity": "4",
+            "unit": "tbsp"
+          },
+          Object {
+            "name": "onions",
+            "quantity": "4",
+            "unit": "big"
+          },
+          Object {
+            "name": "chopped garlic",
+            "quantity": "2",
+            "unit": "cloves"
+          },
+          Object {
+            "name": "salt",
+            "quantity": "2",
+            "unit": "pinches"
+          },
+          Object {
+            "name": "pepper",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "red wine",
+            "quantity": "1",
+            "unit": "glass"
+          }
+        ]
+      }
+      learningPath={
+        Array [
+          "spanish-basics"
+        ]
+      }
+      length="5"
+      pictureIngredients="6.jpg"
+      picturePlating="7.jpg"
+      price="10"
+      servings="2"
+      skillsLearnt={
+        Array [
+          Object {
+            "name": "Caramelise onions"
+          },
+          Object {
+            "name": "Stuffed octopus or calamari"
+          }
+        ]
+      }
+      slug="baby-octopus-with-onions"
+      steps={
+        Array [
+          Object {
+            "description": "Cut the onions in julienne",
+            "picture": "10.jpg",
+            "tip": "As thin as possible to cook it faster."
+          },
+          Object {
+            "description": "Heat 3tbsp of oil in a casserole and cook the onions over high heat for 5 minutes",
+            "picture": "11.jpg",
+            "tip": "Start hard"
+          },
+          Object {
+            "description": "Cover the casserole with and cook over low-medium heat for 20 minutes",
+            "picture": "12.jpg",
+            "tip": "Move from time to time to avoid burning."
+          },
+          Object {
+            "description": "Heat 1tbsp of oil in a frying pan and cook the octopus over medium-high heat for 2 minutes",
+            "picture": "13.jpg",
+            "tip": "Move from time to time to avoid burning."
+          },
+          Object {
+            "description": "Add the octopus, garlic, wine, salt and pepper into the casserole with the onions.",
+            "picture": "14.jpg",
+            "tip": "You can also use champagne or white wine to obtain a ligther taste. "
+          }
+        ]
+      }
+      tags={
+        Array [
+          "seafood",
+          "stuffed"
+        ]
+      }
+      title="Baby Octopus with onions"
+      userId="seconduserid"
+      videoFull="url5"
+      videoPreview="url4"
+      videoThumbnail="8.jpg" />
+    <ShowRecipe
+      _id="3"
+      author={
+        Object {
+          "description": "Wannabe Farmer!",
+          "name": "Carla",
+          "thumbnail": "18.jpg"
+        }
+      }
+      categories={
+        Array [
+          "Mexican"
+        ]
+      }
+      comments={
+        Array [
+          Object {
+            "created": 1421199929,
+            "text": "This guaca is GREAT!",
+            "userId": "Berto"
+          }
+        ]
+      }
+      courseType="starter"
+      created={1441199199}
+      description="The tradional guacamole from Mexico DF."
+      difficulty="Easy"
+      equipment={
+        Array [
+          Object {
+            "name": "knife",
+            "quantity": "1"
+          },
+          Object {
+            "name": "spoon",
+            "quantity": "1"
+          },
+          Object {
+            "name": "bowl",
+            "quantity": "1"
+          }
+        ]
+      }
+      ingredients={
+        Array [
+          Object {
+            "name": "Avocado",
+            "quantity": "3",
+            "unit": ""
+          },
+          Object {
+            "name": "lime",
+            "quantity": "1",
+            "unit": ""
+          },
+          Object {
+            "name": "tomato",
+            "quantity": "1",
+            "unit": "normal"
+          },
+          Object {
+            "name": "red onion",
+            "quantity": "1/2",
+            "unit": "big"
+          },
+          Object {
+            "name": "salt",
+            "quantity": "2",
+            "unit": "pinches"
+          },
+          Object {
+            "name": "pepper",
+            "quantity": "2",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "coriander (optional)",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "serrano chili (optional)",
+            "quantity": "1",
+            "unit": "pinch"
+          }
+        ]
+      }
+      learningPath={
+        Array [
+          "mexican-basics"
+        ]
+      }
+      length="5"
+      pictureIngredients="15.jpg"
+      picturePlating="16.jpg"
+      price="10"
+      servings="2"
+      skillsLearnt={
+        Array [
+          Object {
+            "name": "Ealisy peel and pit the avocados."
+          }
+        ]
+      }
+      slug="guacamole"
+      steps={
+        Array [
+          Object {
+            "description": "Peel and pit the avocados. Extact the juice from line. Finely chop the tomatoe and red onion.",
+            "picture": "15.jpg",
+            "tip": ""
+          },
+          Object {
+            "description": "In a large bowl, mix and mash avocado, lime juice, tomato and red onion to desired chunkiness.",
+            "picture": "19.jpg",
+            "tip": "Mexicans avoid mashing completely the avocados."
+          },
+          Object {
+            "description": "Season with salt and pepper, to taste. Add some chopped coriander and serrano chili, for some heat. Serve immediately in a bowl and garnish with coriander.",
+            "picture": "16.jpg",
+            "tip": "Be aware that people tend to dislike coriander"
+          }
+        ]
+      }
+      tags={
+        Array [
+          "fresh",
+          "vegan"
+        ]
+      }
+      title="Guacamole"
+      userId="seconduserid"
+      videoFull="url5"
+      videoPreview="url4"
+      videoThumbnail="17.jpg" />
+    <ShowRecipe
+      _id="4"
+      author={
+        Object {
+          "description": "Wannabe Singer!",
+          "name": "Isma",
+          "thumbnail": "23.jpg"
+        }
+      }
+      categories={
+        Array [
+          "Mexican"
+        ]
+      }
+      comments={
+        Array [
+          Object {
+            "created": 1411199929,
+            "text": "Grilled properly and serve it warm to impress your friends!! ",
+            "userId": "Andreu"
+          }
+        ]
+      }
+      courseType="main"
+      created={1401199199}
+      description="Easy to make tacos with chuck steak."
+      difficulty="Easy"
+      equipment={
+        Array [
+          Object {
+            "name": "knife",
+            "quantity": "1"
+          },
+          Object {
+            "name": "frying pan",
+            "quantity": "1"
+          },
+          Object {
+            "name": "bowl",
+            "quantity": "1"
+          }
+        ]
+      }
+      ingredients={
+        Array [
+          Object {
+            "name": "Chuck steak",
+            "quantity": "250",
+            "unit": "grams"
+          },
+          Object {
+            "name": "Olive oil",
+            "quantity": "2",
+            "unit": "tbsp"
+          },
+          Object {
+            "name": "Worcestershire sauce",
+            "quantity": "1",
+            "unit": "tbsp"
+          },
+          Object {
+            "name": "Paprika",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "Chimichurri",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "Sesame Oil",
+            "quantity": "1/2",
+            "unit": "big"
+          },
+          Object {
+            "name": "Red onion",
+            "quantity": "1",
+            "unit": "medium"
+          },
+          Object {
+            "name": "Tomato",
+            "quantity": "1",
+            "unit": "big"
+          },
+          Object {
+            "name": "lime",
+            "quantity": "1",
+            "unit": ""
+          },
+          Object {
+            "name": "chili",
+            "quantity": "1",
+            "unit": "medium"
+          },
+          Object {
+            "name": "coriander",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "salt",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "pepper",
+            "quantity": "1",
+            "unit": "pinch"
+          },
+          Object {
+            "name": "Corn Tortillas",
+            "quantity": "1",
+            "unit": "pack"
+          }
+        ]
+      }
+      learningPath={
+        Array [
+          "mexican-basics"
+        ]
+      }
+      length="5"
+      pictureIngredients="20.jpg"
+      picturePlating="21.jpg"
+      price="10"
+      servings="2"
+      skillsLearnt={
+        Array [
+          Object {
+            "name": "Marinade a steak."
+          },
+          Object {
+            "name": "Prepare the classic Pico the Gallo, mexican staple food."
+          }
+        ]
+      }
+      slug="carne-asada-tacos"
+      steps={
+        Array [
+          Object {
+            "description": "Make a marinade by combining olive oil, Worcestershire sauce, paprika, Chimichurri and sesame oil. Mix meat and marinade and let it sit for 15 minutes at room temperature, tossing occasionally.",
+            "picture": "24.jpg",
+            "tip": "Taste the marinade before mixing to add more of one ingredient to adapt to your needs."
+          },
+          Object {
+            "description": "Let’s prepare Pico de Gallo! Finely chop the onion and tomato and juice the lime. In a bowl, mix all together and add coriander. Season with salt and pepper to taste.",
+            "picture": "25.jpg",
+            "tip": "Use pico de gallo to other recipes!!"
+          },
+          Object {
+            "description": "Grill the steak over medium-high heat, until medium-rare. About 2-3 minutes per side. Let it rest for 2 minutes and slice it. To assemble the tacos, warm the tortillas on the grill, divide steak among tortillas, then top with Pico de Gallo and garnish with coriander.",
+            "picture": "26.jpg",
+            "tip": ""
+          }
+        ]
+      }
+      tags={
+        Array [
+          "grilled",
+          "fastfood"
+        ]
+      }
+      title="Carne Asada Tacos"
+      userId="seconduserid"
+      videoFull="url5"
+      videoPreview="url4"
+      videoThumbnail="22.jpg" />
+  </div>
+</div>
+`;
