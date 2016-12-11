@@ -1,4 +1,5 @@
 import React from 'react'
+import Moment from 'react-moment'
 const { string, number, shape, array } = React.PropTypes
 
 const ShowRecipe = React.createClass({
@@ -15,7 +16,6 @@ const ShowRecipe = React.createClass({
   },
   render () {
     const { videoThumbnail, title, description, created, author, categories } = this.props
-    const timestamp = Date(created)
     // const date = (timestamp.getMonth()+1) + '/' + timestamp.getFullYear()
     return (
       <div className='show-card'>
@@ -24,8 +24,8 @@ const ShowRecipe = React.createClass({
           <h4>{author.name}</h4>
           <img className='author-thumbnail' src={`/public/img/recipes/${author.thumbnail}`} />
           <h3>{title}</h3>
-          <p>({timestamp})</p>
-          <p>({categories.toString()})</p>
+          <p><Moment unix format='MM/YYYY'>{created}</Moment></p>
+          <p>({categories.join(' | ')})</p>
           <p>{description}</p>
         </div>
         <button>READ MORE</button>
